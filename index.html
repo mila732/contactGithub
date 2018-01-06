@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/latest/normalize.css">
     <link rel="stylesheet" type="text/css" href="../contactGithub/recources/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
 </head>
     
 <body>
@@ -16,9 +16,11 @@
     <div class="center">
             
         <div class="headline">
-            <h1>Let's Grow Your MSP Business Together.</h1> 
+            <div class="headline_text">
+                <h1>Let's Grow Your MSP Business Together.</h1> 
 
-            <h4>Interested in becoming a Continuum Partner? Have questions about our solutions?</h4>   
+                <h4>Interested in becoming a Continuum Partner? Have questions about our solutions?</h4>   
+            </div>
         </div>
          
 
@@ -29,25 +31,25 @@
                         
                         <h1>Get In Touch</h1>
                         
-                        <div class="address margin">
+                        <div class="address space">
                             <h4>Address</h4>
                             <div class="line"></div>
                             <p>Continuum Managed Services<br> 99 High Street, 31st Floor<br> Boston, MA 02110-2310</p>
                         </div>
                         
-                        <div class="phone margin">
+                        <div class="phone space">
                             <h4>Phone</h4>
                             <div class="line"></div>
                             <p>+1 866 - 223 - 7394</p>
                         </div>
                         
-                        <div class="email margin">
+                        <div class="email space">
                             <h4>Email</h4>
                             <div class="line"></div>
                             <p>Continuum@gmail.com</p>
                         </div>
                         
-                        <div class="social margin">
+                        <div class="social space">
                             <h4>Social</h4>
                             <div class="line"></div>
                             <div class="icons">
@@ -63,45 +65,55 @@
                     </div>
                 </div>
 
-                <div class="contact_form col-sm-8">
+                <div class="contact_form col-sm-8 col-12">
                     <div class="text">
                         <h1>Contact Us</h1>
                             <form action="/action.php">
-                            <div class="flex">
-                                <div class="name">
-                                        Name<span class="asterisk">*</span><br>
-                                        <input class="" type="text" value=""><br>
+                                
+                            <div class="container">
+                                <div class="row">
+                                    <div class="name col-sm-6 remove_padding">
+                                            Name<span class="asterisk">*</span><br>
+                                            <input class="" type="text" value=""><br>
+                                    </div>
+                                    <div class="email col-sm-6 remove_padding">
+                                            Email<span class="asterisk">*</span><br>
+                                            <input class=""  type="text" value=""><br>
+                                    </div>
+                                    
+                                    
+                                    
+                                        <div class="business_email  col-sm-6 remove_padding add_margin">
+                                             Business Email<span class="asterisk">*</span><br>
+                                            <input type="text"  value="" placeholder=""><br>
+                                        </div>
+                                        <div class="company_name col-sm-6 remove_padding add_margin">
+                                            Company Name<span class="asterisk">*</span><br>
+                                            <input type="text"  value="" placeholder=""><br>
+                                        </div>    
+                                    
+                                
+                                    <div class="country col-sm-6 remove_padding">
+                                        Country<span class="asterisk">*</span>
+                                        <select class="arrow" name="Country">
+                                            <option value="usa">USA</option>
+                                            <option value="Colombia">Colombia</option>
+                                            <option value="Canada">Canada</option>
+                                            <option value="Mexico">Mexico</option>
+                                        </select><br>
+                                    </div>
+                                    
+                                    <div class="comment_section col-sm-12 remove_padding add_comment_margin">
+                                        Comments<br>
+                                        <textarea name="comment" class="comments" value="" placeholder=""></textarea>
+                                        <br>
+                                        <br>
+                                        <input class="button" type="submit" value="Talk to Us!">
+                                    </div>
                                 </div>
-                                <div class="email">
-                                        Email<span class="asterisk">*</span><br>
-                                        <input class=""  type="text" value=""><br>
-                                </div>    
-                            </div>  
-                            <div class="flex alter">
-                                <div class="business_email">
-                                     Business Email<span class="asterisk">*</span><br>
-                                    <input type="text"  value="" placeholder=""><br>
-                                </div>
-                                <div class="company_name">
-                                    Company Name<span class="asterisk">*</span><br>
-                                    <input type="text"  value="" placeholder=""><br>
-                                </div>    
                             </div>
-                                <div class="country alter">
-                                    Country<span class="asterisk">*</span>
-                                    <select class="arrow" name="Country">
-                                        <option value="usa">USA</option>
-                                        <option value="Colombia">Colombia</option>
-                                        <option value="Canada">Canada</option>
-                                        <option value="Mexico">Mexico</option>
-                                    </select><br>
-                                </div>
-                                Comments<br>
-                                <textarea name="comment" class="comments" value="" placeholder=""></textarea>
-                                <br>
-                                <br>
-                                <input class="button" type="submit" value="Talk to Us!">
-                            </form>
+                                
+                       </form>
                     
                     </div>
                     
@@ -114,6 +126,10 @@
     <footer>
         <img src="recources/images/footerimg.png">
     </footer> 
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>    
 
 </body>
     
