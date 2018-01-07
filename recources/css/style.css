@@ -250,6 +250,7 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     
 .get_form {
     height:47rem !important;
+    width: 100% !important;
     }
     
 .contact_form {
@@ -303,9 +304,9 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     }
     
     .get_form{
-        display: block !important;
+    display: block !important;
     border-radius: 0px;
-    width: 100%;  
+    width: 100% !important;  
     height: 50rem;  
     }
            
@@ -340,12 +341,12 @@ form select {
     .contact_form {
        
         height: 90rem;
-        width: 100%;
+        width: 100% !important;
        
     }
     
     .mobile_change {
-        width: 55% !important; 
+        width: 60% !important; 
  
     }
 
