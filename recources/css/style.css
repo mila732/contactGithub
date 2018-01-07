@@ -48,7 +48,7 @@ header {
 }
 
 .contact {
-    width:63rem;
+    width:61rem !important;
     height:40rem;
     border-radius: 15px;
     position: absolute;
@@ -109,7 +109,7 @@ header {
 
 
 .contact_form {
-  width:544px;
+  width:34rem;
   height:100%;
 }
 
@@ -154,7 +154,7 @@ footer img {
    background-color:#FC672F;
     color:#fff;
     font-size:1.5rem;
-    width:100%;
+    width:96%;
     height:45px;
     border:none;
     margin-top:-15px;
@@ -169,7 +169,7 @@ footer img {
 
 form {
    margin-top:28px; 
-   width:544px;
+   width:34rem;
 }
 
 form input {
@@ -275,6 +275,7 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     width:100% !important;
      border-radius: 0px;
      font-size:1.75rem;
+    box-shadow:none;  
   }
     
     .headline {
@@ -302,7 +303,7 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     }
     
     .get_form{
-        display: block;
+        display: block !important;
     border-radius: 0px;
     width: 100%;  
     height: 50rem;  
@@ -321,7 +322,7 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
 }
     
     form input {
-    width: 80%;
+/*    width: 50%;*/
     height: 45px;
     font-size:1.7rem !important;
         padding-left: 10px;
@@ -330,27 +331,33 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
 
 form select {
     display: block;
-    width: 80%;
+/*    width: 50%;*/
     height: 45px;
     font-size:1.7rem !important;
     padding-left: 10px;
 
 }
     .contact_form {
+       
         height: 90rem;
         width: 100%;
        
     }
+    
+    .mobile_change {
+        width: 55% !important; 
+ 
+    }
 
     .comments {
     height:114px;
-    width:80%;
+/*    width:50%;*/
         font-size:1.7rem !important;
     
 }
     
     .button{
-    width:80%;
+/*    width:80%;*/
     }
     
     .get_form h4 {
@@ -359,17 +366,20 @@ form select {
     
     .map {
         width: 100%;
+        height:25rem;
         margin-top:115rem;
         background-size: cover;
     }
     
     footer {
         width:100%;
+        height:5rem;
     
     }
     
     footer img {
-       margin-left:15px;
+       margin-left:5px;
+       height:20px;
     
     }
     
