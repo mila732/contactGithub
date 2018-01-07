@@ -3,8 +3,7 @@
 body {
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
-    font-size:16px !important;
-    
+    font-size:16px !important;   
 }
 
 header {
@@ -25,8 +24,7 @@ header {
     width:100%;
     height:25.6rem;
     color: #fff;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
 
@@ -48,8 +46,9 @@ header {
 .headline_text {
   padding-top:6rem;
 }
+
 .contact {
-    width:63rem!important;
+    width:63rem;
     height:40rem;
     border-radius: 15px;
     position: absolute;
@@ -58,8 +57,6 @@ header {
     background-color: white;
     vertical-align: middle;
     box-shadow: 5px 10px 28px 5px rgba(0, 0, 0, 0.5);  
-  
- 
 }
 
 .get_form{
@@ -67,9 +64,7 @@ header {
     height:40rem;
     border-radius: 15px 0px 0px 15px;
     float:left;
-
 }
-
 
  .contact .text {
     margin-top:55px;
@@ -80,7 +75,7 @@ header {
     color: #333E48;
 }
 
- .contact .space {
+.contact .space {
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -116,13 +111,10 @@ header {
 .contact_form {
   width:544px;
   height:100%;
-  
-
 }
 
 .contact_form .text h1 {
- color: #333E48;
-      
+ color: #333E48;     
 }
 
 .contact_form .margin h4 {
@@ -145,8 +137,7 @@ footer {
     height:9rem;
     background-color: #333E48;
     display: flex !important;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 footer img {
@@ -168,9 +159,7 @@ footer img {
     border:none;
     margin-top:-15px;
     cursor: pointer;
-    font-weight: bold;
-    
-    
+    font-weight: bold;    
 } 
 
 .button:hover {
@@ -207,8 +196,7 @@ form select {
 }
 
 .country option value {
-    font-size:1.5rem;
-    
+    font-size:1.5rem;   
 }
 
 .comments {
@@ -219,18 +207,15 @@ form select {
     margin-top:1px !important;
     color: #55565A;
     padding-left: 5px;
-    font-size:1.0rem;
-   
+    font-size:1.0rem;  
 }
 
 
 .arrow{
-   
-     color:#55565A;
- background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    color:#55565A;
+background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
     -webkit-appearance: none;
-     background-position-x: 224px;
-    
+     background-position-x: 224px;  
 }
 
 
@@ -253,7 +238,36 @@ form select {
     margin-top:10px;
 }
 
-/*MEDIA QUERY CODE*/
+
+/*MEDIA QUERY CODE TABLET*/
+
+@media only screen and (min-width:768px) and (max-width: 990px) {
+    
+.contact {
+    width:100% !important;
+    height:47rem !important;
+    }
+    
+.get_form {
+    height:47rem !important;
+    }
+    
+.contact_form {
+    width:100% !important;
+    }
+    
+    .contact_form input, select {
+        width 100%;
+    }
+    
+    form input, select {
+    width: 100%;
+    }
+}
+
+
+
+/*MEDIA QUERY CODE MOBILE*/
 
 @media only screen and (max-width: 768px) {
  .contact {
@@ -288,6 +302,7 @@ form select {
     }
     
     .get_form{
+        display: block;
     border-radius: 0px;
     width: 100%;  
     height: 50rem;  
