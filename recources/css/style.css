@@ -257,12 +257,14 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     width:100% !important;
     }
     
-    .contact_form input, select {
-        width 100%;
+    form {
+      width: 100% !important;  
     }
+
+   .mobile_change {
+    width: 90% !important;
+    display: block !important;
     
-    form input, select {
-    width: 100%;
     }
 }
 
@@ -277,6 +279,7 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
      border-radius: 0px;
      font-size:1.75rem;
     box-shadow:none;  
+      position: none;
   }
     
     .headline {
