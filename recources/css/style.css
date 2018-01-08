@@ -262,8 +262,8 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
     }
 
    .mobile_change {
-    width: 100% !important;
-       display: block !important;
+    width: 90% !important;
+    display: block !important;
     
     }
 }
