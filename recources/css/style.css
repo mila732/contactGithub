@@ -323,7 +323,6 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
 }
     
     form input {
-/*    width: 50%;*/
     height: 45px;
     font-size:1.7rem !important;
         padding-left: 10px;
@@ -332,48 +331,45 @@ background:url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x
 
 form select {
     display: block;
-/*    width: 50%;*/
     height: 45px;
     font-size:1.7rem !important;
     padding-left: 10px;
 
 }
     .contact_form {
-       
         height: 90rem;
         width: 100% !important;
        
     }
     
+    form{
+      width: 100% !important;  
+    }
+    
     .mobile_change {
-        width: 60% !important; 
+        width: 90% !important; 
  
     }
 
     .comments {
     height:114px;
-/*    width:50%;*/
-        font-size:1.7rem !important;
+    font-size:1.7rem !important;
     
 }
-    
-    .button{
-/*    width:80%;*/
-    }
     
     .get_form h4 {
         font-size:2rem;
     }
     
     .map {
-        width: 100%;
+        width: 100% !important;
         height:25rem;
         margin-top:115rem;
         background-size: cover;
     }
     
     footer {
-        width:100%;
+        width:100% !important;
         height:5rem;
     
     }
